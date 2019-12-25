@@ -1,0 +1,73 @@
+.product-section-button {
+  border: 0;
+  height: 47px;
+  background: transparent;
+  color: #3150a2;
+}
+.product-section-container {
+  height: auto;
+}
+.product-section-holder {
+  margin: 0 auto;
+  padding: 30px 6.75vw 10px;
+}
+.product-section-title {
+  font-family: "Canela", Times New Roman, Times, "serif";
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 16px;
+  color: #3150a2;
+}
+.product-section-scroll {
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto 40px;
+  align-items: center;
+}
+.product-slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px auto 50px;
+}
+.product-card {
+  text-align: center;
+  font-family: "Plantin",Times New Roman,Times,"serif";
+  font-weight: 400;
+  color: #3150a2;
+  margin-bottom: 30px;
+  width: 210px;
+}
+.product-card-image {
+  width: 170px;
+  height: 180px;
+}
+.product-card-category {
+  font-size: 15px;
+  line-height: 22px;
+  font-style: italic;
+}
+.product-card-title {
+  font-size: 15px;
+  line-height: 22px;
+}
+.product-card-price {
+  font-family: "GT Pressura", Helvetica, Arial, "sans-serif";
+  font-size: 12px;
+  letter-spacing: 0.24em;
+}
+.product-nav-image {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.mini-img {
+    width: 50px;
+    max-width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 100%;
+    border: 1px solid #3150a2;
+    object-fit: cover;
+}

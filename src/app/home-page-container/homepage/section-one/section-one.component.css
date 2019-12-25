@@ -1,0 +1,53 @@
+.shop-by-age-container {
+  height: auto;
+  padding: 10px 6.5vw 30px;
+}
+.shop-by-age-header-section {
+  margin: 0 auto;
+  width: 60%;
+}
+.shop-by-age-header-top {
+  font-family: "Canela", Times New Roman, Times, "serif";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #3150a2;
+}
+.shop-by-age-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px auto 10px;
+  /* border: 1px solid black; */
+}
+.shop-by-age-card {
+  /* margin-right: 30px; */
+  text-align: center;
+  margin-bottom: 30px;
+  width: 120px;
+}
+.shop-by-age-card-image {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.shop-by-age-card-title {
+  font-family: "GT Pressura", Helvetica, Arial, "sans-serif";
+  color: #3150a2;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1em;
+  margin-bottom: 15px;
+}
+.shop-by-age-card-action {
+  display: inline-block;
+  font-size: 24px;
+  color: #3150a2;
+  font-weight: 600;
+  line-height: 1em;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}

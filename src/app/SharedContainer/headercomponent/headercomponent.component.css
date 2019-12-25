@@ -1,0 +1,128 @@
+@media screen and (min-width: 1024px) {
+  .main-header {
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+    padding-top: 40px;
+    height: 148px;
+    align-items: flex-end;
+  }
+  .mobile-navigation {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main-header {
+    padding-top: 15px;
+    align-items: flex-start;
+  }
+  .logo {
+    display: none;
+  }
+  .dollars {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main-navigation-primary-item:first-child {
+    border: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main-navigation-primary-item {
+    text-align: center;
+    position: unset;
+  }
+}
+.banner-section {
+  display: block;
+  background-color: #3150a2;
+  color: #fff;
+  padding: 20px 15px;
+  line-height: 25px;
+  position: relative;
+  z-index: 3;
+  font-family: "GT Walsheim Pro Regular", Helvetica, Arial, "sans-serif";
+  font-size: 14px;
+}
+.banner-section em {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+.promo-carousel {
+  display: block;
+  padding: 0px;
+}
+.promo-active {
+  height: 0px;
+  opacity: 1;
+  transition: all 2s linear;
+}
+.promo-inactive {
+  height: 0px;
+  opacity: 0;
+}
+li {
+  text-align: -webkit-match-parent;
+  display: list-item;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+.main-header {
+  background: #fcf8e8;
+  font-family: "GT Walsheim Pro Regular", Helvetica, Arial, "sans-serif";
+  padding-bottom: 22px;
+}
+.main-header .left-btn {
+  background-color: transparent;
+  border: 0px;
+  color: #3150a2;
+}
+.sign {
+  font-size: 13px;
+}
+.main-header-right {
+  color: #3150a2;
+}
+.main-navigation-bar {
+  transform: translateZ(0);
+  position: relative;
+  width: 100%;
+  height: 51px;
+  line-height: 16px;
+  padding: 0 6.5vw;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  background: #fff;
+  border-bottom: 1px solid #faefd9;
+  overflow: visible;
+}
+.main-navigation-primary {
+  -webkit-box-flex: 1;
+  flex: 1;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+}
+.main-navigation-primary-item {
+  color: #3150a2;
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 50px;
+  font-family: "GT Pressura", Helvetica, Arial, "sans-serif";
+  letter-spacing: 0.24em;
+  font-size: 11px !important;
+}
