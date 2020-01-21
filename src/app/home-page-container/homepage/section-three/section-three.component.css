@@ -11,7 +11,7 @@
   font-size: 30px;
   font-weight: 600;
   line-height: 30px;
-  color: #3150a2;
+  color: #FFF;
 }
 .edit-card-container {
   display: flex;
@@ -32,7 +32,7 @@
   border-radius: 50%;
 }
 .edit-card-category {
-  color: #9db2dd;
+  color: #FFF;
   font-family: "GT Walsheim Pro Regular", Helvetica, Arial, "sans-serif";
   font-size: 13px;
   line-height: 1em;
@@ -43,7 +43,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
-  color: #3150a2;
+  color: #FFF;
   line-height: 1em;
   margin-bottom: 15px;
 }
@@ -57,7 +57,9 @@
   text-transform: uppercase;
   letter-spacing: 0.24em;
   cursor: pointer;
-  border-bottom: 2px solid #3150a2;
+  color: #FFF;
+  font-weight: 400;
+  border-bottom: 2px solid #FFF;
   padding-bottom: 8px;
   transition: all 0.3s linear;
 }

@@ -74,7 +74,7 @@ ul {
   list-style-type: none;
 }
 .main-header {
-  background: #fcf8e8;
+  background: #C1CEDE;
   font-family: "GT Walsheim Pro Regular", Helvetica, Arial, "sans-serif";
   padding-bottom: 22px;
 }
@@ -82,6 +82,19 @@ ul {
   background-color: transparent;
   border: 0px;
   color: #3150a2;
+}
+.logo {
+  object-fit: contain;
+}
+.logo-input {
+  padding: 10px;
+  background-color: #C1CEDE;
+  border-color: #3150a2;
+  color: #fff;
+}
+.logo-btn{
+  color: #fff;
+  background-color: #3150a2;
 }
 .sign {
   font-size: 13px;
@@ -101,7 +114,7 @@ ul {
   -webkit-box-direction: normal;
   flex-direction: row;
   background: #fff;
-  border-bottom: 1px solid #faefd9;
+  border-bottom: 0px solid #C1CEDE;
   overflow: visible;
 }
 .main-navigation-primary {
@@ -112,7 +125,7 @@ ul {
   -webkit-box-direction: normal;
   flex-direction: row;
   -webkit-box-pack: justify;
-  justify-content: space-between;
+  justify-content: space-evenly;
   line-height: 16px;
   margin: 0;
   padding: 0;

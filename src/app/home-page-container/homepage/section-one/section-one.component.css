@@ -11,7 +11,7 @@
   font-size: 30px;
   font-weight: 600;
   line-height: 30px;
-  color: #3150a2;
+  color: #FFF;
 }
 .shop-by-age-card-container {
   display: flex;
@@ -33,19 +33,19 @@
 }
 .shop-by-age-card-title {
   font-family: "GT Pressura", Helvetica, Arial, "sans-serif";
-  color: #3150a2;
+  color: #FFF;
   text-transform: uppercase;
   letter-spacing: 0.24em;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1em;
   margin-bottom: 15px;
 }
 .shop-by-age-card-action {
   display: inline-block;
   font-size: 24px;
-  color: #3150a2;
-  font-weight: 600;
+  color: #FFF;
+  font-weight: 400;
   line-height: 1em;
   text-align: center;
   cursor: pointer;
