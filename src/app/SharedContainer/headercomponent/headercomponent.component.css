@@ -77,6 +77,7 @@ ul {
   background: #C1CEDE;
   font-family: "GT Walsheim Pro Regular", Helvetica, Arial, "sans-serif";
   padding-bottom: 22px;
+  align-items: flex-end;
 }
 .main-header .left-btn {
   background-color: transparent;
@@ -87,14 +88,22 @@ ul {
   object-fit: contain;
 }
 .logo-input {
-  padding: 10px;
+  padding: 5px;
+  font-size: 12px;
   background-color: #C1CEDE;
   border-color: #3150a2;
   color: #fff;
 }
+.logo-input-btn {
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
 .logo-btn{
   color: #fff;
   background-color: #3150a2;
+}
+.logo-icon {
+  font-size: 15px;
 }
 .sign {
   font-size: 13px;
