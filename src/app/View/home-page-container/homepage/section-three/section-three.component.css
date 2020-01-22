@@ -1,53 +1,53 @@
-@media screen and (min-width: 1023px) {
-  .twin-card-image {
-    height: 600px;
-  }
-}
-.twin-container {
+.edit-container {
   height: auto;
   padding: 10px 6.5vw 30px;
 }
-.twin-card-container {
+.edit-header-section {
+  margin: 0 auto;
+  width: 60%;
+}
+.edit-header-top {
+  font-family: "Canela", Times New Roman, Times, "serif";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #3150a2;
+}
+.edit-card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 50px auto 10px;
   /* border: 1px solid black; */
 }
-.twin-card {
+.edit-card {
   /* margin-right: 30px; */
   text-align: center;
   margin-bottom: 30px;
+  width: 250px;
 }
-.twin-card-image-one {
-  height: 455px;
-  width: 315px;
-  border-radius: 100%;
+.edit-card-image {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
 }
-.twin-card-image {
-  max-width: 100%;
-}
-.twin-card-description {
-    display: block;
-    margin-top: 185px;
-}
-.twin-card-category {
-  color: #FFF;
+.edit-card-category {
+  color: #3150a2;
   font-family: "GT Walsheim Pro Regular", Helvetica, Arial, "sans-serif";
   font-size: 13px;
   line-height: 1em;
   margin: 40px 0 20px;
 }
-.twin-card-title {
+.edit-card-title {
   font-family: "Canela", "Times New Roman", "serif";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 25px;
-  color: #FFF;
+  color: #3150a2;
   line-height: 1em;
   margin-bottom: 15px;
 }
-.twin-card-action {
+.edit-card-action {
   display: inline-block;
   font-family: "GT Pressura", Helvetica, Arial, "sans-serif";
   font-size: 12px;
@@ -57,8 +57,9 @@
   text-transform: uppercase;
   letter-spacing: 0.24em;
   cursor: pointer;
-  color: #FFF;
-  border-bottom: 2px solid #FFF;
+  color: #3150a2;
+  font-weight: 400;
+  border-bottom: 2px solid #3150a2;
   padding-bottom: 8px;
   transition: all 0.3s linear;
 }

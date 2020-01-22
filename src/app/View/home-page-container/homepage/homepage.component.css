@@ -59,7 +59,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
-  color: #fff;
+  color: #3150a2;
   line-height: 1em;
   margin-bottom: 15px;
 }
@@ -73,8 +73,8 @@
   text-transform: uppercase;
   letter-spacing: 0.24em;
   cursor: pointer;
-  color: #fff;
-  border-bottom: 2px solid #fff;
+  color: #3150a2;
+  border-bottom: 2px solid #3150a2;
   padding-bottom: 8px;
   transition: all 0.3s linear;
 }
